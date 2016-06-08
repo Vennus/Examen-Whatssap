@@ -1,0 +1,271 @@
+/*Inserta tu css aqui*/
+body{
+	background: #DFDFDF;
+	font-family: 'Open Sans';
+}
+.header{
+	background: #009688;
+	height: 70px;
+}
+/*Chat - perfil*/
+.user{
+	height: 540px;
+	margin-top: 1.7%;
+	padding: 0;
+	border:1px solid white;
+}
+.barra{
+	overflow-y:visible;
+	overflow-x:hidden;
+    height: 83%;
+    background:white;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #BEBBB7; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px gray; 
+}
+
+.perfil-gian{
+	padding: 2% 3%;
+	background: #EEEEEE;
+	height: 55px;
+}
+.perfil-gian img{
+	border-radius: 100px;
+	width: 10%;
+}
+.perfil-gian a{
+	float: right;
+	padding: 3% 2%;
+	font-size: 1.3em;
+	color:#808080;
+}
+/*--FIN--*/
+
+/*Buscardor de chat INPUT*/
+.search{
+	padding: 4%;
+	background: white;
+	height: 64px;
+}
+.input-search{
+	padding: 2% 3%;
+	width: 100%;
+	border-radius: 5px;
+	border:1px solid gray;
+	display: inline-block;
+	padding:7px 34px;
+}
+.icon-search{
+	position: absolute;
+	margin: 8px 15px;
+	color: gray;
+}
+/*--FIN--*/
+
+/*--MIS CONTACTOS--*/
+.contact img {
+	width: 9%;
+	border-radius: 100px;
+	float: left;
+}
+.contact{
+	padding: 3%;
+	background: white;
+	height: 60px;
+	border-top:2px solid #F1F1F1;
+}
+.contact .hora{
+	position: relative;
+	left: 75%;
+	top: -115%;
+}
+.contact h4 {
+	font-size: 0.8em;
+	padding: 0 13%;
+}
+.contact p{
+	color:#7F7F82;
+	font-size: 0.8em;
+	padding: 0 13%;
+}
+/*--CHAT MENSAJE--*/
+
+.chat{
+	background: url(../image/chat-panel-bg.png);
+	background-color: #E4E0DB;
+	border:1px solid white;
+	height: 545px;
+	margin-top: 1.7%;
+	padding: 0;
+}
+.perfil-chat{
+	padding: 2% 3%;
+	background: #EEEEEE;
+	height: 55px;
+}
+.perfil-chat img{
+	width: 6%;
+	border-radius: 100px;
+	float: left;
+}
+.perfil-chat h3 {
+	font-size: 0.9em;
+	padding: 0 8%;
+}
+.perfil-chat p{
+	font-size: 0.9em;
+	padding: 0 8%;
+	color:#7F7F82;
+}
+.icon-lab {
+	float: right;
+	font-size: 1.3em;
+	color:#808080;
+	position: relative;
+	top: -100%;
+}
+/*	MIS MENSAJES */
+.mensaje{
+	margin-top: 3%;
+	margin-left: 3%;
+}
+.mensaje .usuario{
+	background: white;
+	margin-top: 0.5%;
+	width: 45%;
+	height: 60px;
+	border-radius: 8px;
+}
+.usuario h4 {
+	font-size: 0.8em;
+	padding: 3% 0 0 3%;
+}
+.usuario p{
+	font-size: 0.7em;
+	color:#7F7F82;
+	padding-left: 3%;
+}
+.usuario .hora{
+	position: relative;
+	left: 85%;
+	top: -18%;
+}
+.enviar{
+	position: relative;
+	left: 385px;
+	background: white;
+	margin-top: 0.5%;
+	width: 35%;
+	height: 50px;
+	border-radius: 5px;
+	background: #DCF8C6;
+}
+.enviar h4 {
+	font-size: 0.8em;
+	color:black;
+}
+.enviar p{
+	font-size: 0.7em;
+	color:#7F7F82;
+	color: black;
+	padding: 3% 0 0 3%;
+}
+.enviar .hora{
+	position: relative;
+	left: 80%;
+	top: -15%;
+	color:#7F7F82;
+}
+/*IMPUT DE ENVIAR MENSAJES*/
+.escribir-mensaje{
+    background: white;
+	height: 60px;
+	padding: 0.6% 0;
+	position: absolute;
+	bottom: 0;	
+	width: 58.2%;
+}
+
+.mensaje-enviar {
+	width: 60%;
+	border-radius: 5px;
+	border:1px solid gray;
+	padding:15px 30px;
+	height: 10px;
+}
+.icon-insert_emoticon{
+	color: gray;
+	padding:12px;
+	font-size: 1.6em;
+}
+.icon-mic{
+	color: gray;
+	padding:12px;
+	font-size: 1.6em;
+	float: right;
+}
+/*Colores de letras*/
+.andrea{
+	color:#9CD9F4;
+}
+.mariana{
+	color:#ED78AF;
+}
+.papu{
+	color:#58D2BA;
+}
+.aldo{
+	color:#F0D563;
+}
+
+/*SCROLL*/
+.mensaje{
+	overflow-y:visible;
+	overflow-x:hidden;
+    height: 410px;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #BEBBB7; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px gray; 
+}
+/*button-enviar*/
+#tweets {
+	margin-top: 40px;
+}
+#icon {
+	float: right;
+}
+.tweet {
+	box-sizing: border-box;
+	padding: 10px;
+	width: 300px;
+	border: 1px solid #00BC8A;
+	margin-bottom: 10px;
+	background: #6DBB79;
+	float: right;
+	font-size: 0.9em;
+	margin-bottom: 10px;
+}
+#tweetButton{
+	background:#337AB7;
+	padding: 10px;
+	border:none;
+	margin: 5px 0;
+	color:white;
+	font-weight: bold;
+}

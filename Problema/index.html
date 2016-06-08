@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Chat de Laboratoria</title>
+		<link rel="stylesheet" href="css/main.css">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="image/favicon.png" type="image/png">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+		<link rel="stylesheet" href="css/queries.css">
+		<link rel="stylesheet" href="css/grid-system.css">
+		<link rel="stylesheet" href="css/icomoon.css">
+		<!-- Begin emoji-picker Stylesheets -->
+  <link href="emoji/css/nanoscroller.css" rel="stylesheet">
+  <link href="emoji/css/emoji.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="header" id="chat">
+			<div class="container">
+				<div class="row">
+		<!-- USUARIO -->
+					<div class="user col-5">
+						<div class="perfil-gian">
+							<img src="image/gian.jpg">
+							<a class="icon-dots-three-vertical"></a>
+							<a class="icon-message"></a>
+						</div>	
+		<!-- BUSCADOR DE CONTACTOS -->
+						<div class="search">
+							<form action="#">
+								<i class="icon-search"></i>
+								<input name="fname" class="input-search" type="text" placeholder="Buscar o empezar un chat nuevo">
+							</form>
+						</div>
+		<!-- MIS CONTACTOS -->
+						<div class="barra">
+							<div class="contact">
+								<img src="image/logocodeacademy.png">
+								<h4>Laboratoria Perú</h4>
+								<p>Aldo: Dale dale!</p>
+								<p class="hora">14:25</p>
+							</div>
+							<div class="contact">
+								<img src="image/raymi.jpg">
+								<h4>Raymi Saldomando</h4>
+								<p>La clase va bien!</p>
+								<p class="hora">14:25</p>
+							</div>
+							<div class="contact">
+								<img src="image/mariana.jpg">
+								<h4>Mariana Costa</h4>
+								<p>El panel de speakers esta buenazo</p>
+								<p class="hora">14:25</p>
+							</div>
+							<div class="contact">
+								<img src="image/anamaria.jpg">
+								<h4>Ana María Martinez Franklin</h4>
+								<p>Pues dale chamo!</p>
+								<p class="hora">14:25</p>
+							</div>
+							<div class="contact">
+								<img src="image/rodulfo.jpg">
+								<h4>Rodulfo Prieto</h4>
+								<p>¿Cómo van las chicas?</p>
+								<p class="hora">14:25</p>
+							</div>
+							<div class="contact">
+								<img src="image/andrea.jpg">
+								<h4>Andrea Lamas</h4>
+								<p>hoy me toca clases de canto, yee!</p>
+								<p class="hora">14:25</p>
+							</div>
+							<div class="contact">
+								<img src="image/mariapaula.jpg">
+								<h4>Maria Paula Rivarola</h4>
+								<p>Wuju! esto me encanta!! en verdad!</p>
+								<p class="hora">14:25</p>
+							</div>
+							<div class="contact">
+								<img src="image/katy.jpg">
+								<h4>Katy Sanchez</h4>
+								<p>No te preocupes, tengo el salón bajo control</p>
+								<p class="hora">14:25</p>
+							</div>
+							<div class="contact">
+								<img src="image/aldo.jpg">
+								<h4>Aldo Alfaro</h4>
+								<p>Vao a comer?</p>
+								<p class="hora">14:25</p>
+							</div>
+						</div>
+
+					</div>
+		<!-- CHAT MENSAJES-->
+					<div class="chat col-7">
+						<div class="perfil-chat">
+							<img src="image/logocodeacademy.png">
+							<h3>Laboratoria Perú</h3>
+							<p>Ana María, Aldo, Gian, Miariana, Papu, Tú</p>
+							<div class="icon-lab">
+								<a class="icon-attachment"></a>
+								<a class="icon-dots-three-vertical"></a>
+							</div>
+						</div>
+		<!-- MIS MENSAJES <-->
+						<div class="box-mensaje">
+							<div class="mensaje">
+								<div class="usuario andrea">
+									<h4>Andrea Lamas</h4>
+									<p>Chicos han visto el nuevo corte de Aldo?</p>
+									<p class="hora">14:25</p>
+								</div>
+								<div class="usuario mariana">
+									<h4>Mariana Costa</h4>
+									<p>Finalmente se corto?</p>
+									<p class="hora">14:25</p>
+								</div>
+								<div class="usuario papu">
+									<h4>Maria Paula Rivarola</h4>
+									<p>Jajaja Sii finalmente se corto!!</p>
+									<p class="hora">11:13</p>
+								</div>
+								<div class="enviar  yo">
+									<p class="text-msm">Antes parecia mufasa jajajaja</p>
+									<p class="hora">11:14</p>
+								</div>
+								<div class="enviar  yo">
+									<p>Ahora si esta decente</p>
+									<p class="hora">11:18</p>
+								</div>
+								<div class="usuario andrea">
+									<h4>Andrea Lamas</h4>
+									<p>Por qué se lo habrá cortado?</p>
+									<p class="hora">11:20</p>
+								</div>
+								<div class="usuario aldo">
+									<h4>Aldo Alfaro</h4>
+									<p>Ya ya ya, hacia mucho calor que más</p>
+									<p class="hora">11:25</p>
+								</div>
+								<div class="usuario andrea">
+									<h4>Andrea Lamas</h4>
+									<p>Esta siguiendo los pasos de Juan Diego!</p>
+									<p class="hora">11:30</p>
+								</div>
+								<div class="usuario andrea">
+									<h4>Maria Paula Rivarola</h4>
+									<p>Nunca!!! Juan Diego en único</p>
+									<p class="hora">11:31</p>
+								</div>
+								<div id="tweets" type="checkbox" name="vehicle" value="tarea">
+									<p class="hora"></p>
+								</div>
+							</div>
+						</div>
+						<div class="escribir-mensaje">
+							<i class="icon-insert_emoticon"></i>
+							<input class="mensaje-enviar"id="inputBox" placeholder="Añade tu nueva tarea"></input><br>
+							<i class="icon-mic" id="tweetButton"onclick="tweet()"></i>
+						</div>
+						<p class="lead emoji-picker-container">
+            				<textarea class="form-control textarea-control" rows="3" placeholder="Textarea with emoji image input" data-emojiable="true"></textarea>
+         				</p>	
+					</div>
+				</div>		
+			</div>
+		</div>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://kevinsieger.de/CDN/emoji1/emoji.min.js'></script>
+	<script src="js/main.js"></script>
+	<script src="lib/js/nanoscroller.min.js"></script>
+  <script src="emoji/js/tether.min.js"></script>
+  <script src="emoji/js/config.js"></script>
+  <script src="emoji/js/util.js"></script>
+  <script src="emoji/js/jquery.emojiarea.js"></script>
+  <script src="emoji/js/emoji-picker.js"></script>
+	</body>
+</html>
